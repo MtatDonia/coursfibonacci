@@ -1,6 +1,10 @@
 ﻿using System;
 using Leonardo;
 
-var results = Fibonacci.RunAsync(args);
+using var context = new FibonacciDataContext();
+
+var results = new Fibonacci(context).RunAsync(args);
+
+
 Console.WriteLine($"Finished");
 results.Wait();
