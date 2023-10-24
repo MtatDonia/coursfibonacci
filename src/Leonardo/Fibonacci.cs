@@ -13,29 +13,49 @@ public class Fibonacci
 
     public static async Task<IList<int>> RunAsync(string[] args)
     {
+        await using var context =  new FibonacciDataContext();
         IList<int> results = new List<int>();
         Stopwatch stopwatch = new Stopwatch();
         stopwatch.Start();
         var tasks = new List<Task<int>>();
         foreach(var arg in args)
-        {
-            var task = Task.Run(() =>
+        { 
+            var tFibonacci =  context.TFibonaccis
+                .Where(t => t.FibInput == int.Parse(arg)).FirstOrDefault();
+            if (tFibonacci == null)
             {
-                var result = Fibonacci.Run(int.Parse(arg));
-                Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds} ms {arg}");
-                return result;
-            });
-            tasks.Add(task);
-        }
+                var task = Task.Run(() =>
+                {
+                    var result = Fibonacci.Run(int.Parse(arg));
+                    Console.WriteLine($"Elapsed time: {stopwatch.ElapsedMilliseconds} ms {arg}");
+                    return result;
+                });
+                tasks.Add(task);
+            }
+            else
+            {
+                tasks.Add(Task.FromResult((int)tFibonacci.FibOutput));
+            }
+        } 
         foreach (var task in tasks)
         {
             var result = await task;
+            context.TFibonaccis.Add(new TFibonacci()
+            {
+                FibOutput = result,
+                FibInput = int.Parse(args[tasks.IndexOf(task)])
+
+            });
+                
             Console.WriteLine($"Result: {task.Result}");
             results.Add(task.Result);
         }
+        
         stopwatch.Stop();
         Console.WriteLine("Total elapsed time: {0} ms", stopwatch.ElapsedMilliseconds);
-
+        
+        await context.SaveChangesAsync();
+        
         return results;
     }
 }
