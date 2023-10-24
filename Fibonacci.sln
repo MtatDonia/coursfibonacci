@@ -4,6 +4,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{695C0DE2-930D-48DF-A4BC-D6911CEF49FA}"
+	ProjectSection(SolutionItems) = preProject
+		src\Webapi\appsettings.Development.json = src\Webapi\appsettings.Development.json
+		src\Webapi\appsettings.json = src\Webapi\appsettings.json
+		src\Webapi\bin\Debug\net8.0\appsettings.Development.json = src\Webapi\bin\Debug\net8.0\appsettings.Development.json
+		src\Webapi\bin\Debug\net8.0\appsettings.json = src\Webapi\bin\Debug\net8.0\appsettings.json
+		src\Webapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll = src\Webapi\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+		src\Webapi\bin\Debug\net8.0\Microsoft.OpenApi.dll = src\Webapi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+		src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll = src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+		src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll = src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+		src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll = src\Webapi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+		src\Webapi\bin\Debug\net8.0\Webapi.deps.json = src\Webapi\bin\Debug\net8.0\Webapi.deps.json
+		src\Webapi\bin\Debug\net8.0\Webapi.dll = src\Webapi\bin\Debug\net8.0\Webapi.dll
+		src\Webapi\bin\Debug\net8.0\Webapi.exe = src\Webapi\bin\Debug\net8.0\Webapi.exe
+		src\Webapi\bin\Debug\net8.0\Webapi.pdb = src\Webapi\bin\Debug\net8.0\Webapi.pdb
+		src\Webapi\bin\Debug\net8.0\Webapi.runtimeconfig.json = src\Webapi\bin\Debug\net8.0\Webapi.runtimeconfig.json
+		src\Webapi\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs = src\Webapi\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+		src\Webapi\obj\Debug\net8.0\apphost.exe = src\Webapi\obj\Debug\net8.0\apphost.exe
+		src\Webapi\obj\Debug\net8.0\ref\Webapi.dll = src\Webapi\obj\Debug\net8.0\ref\Webapi.dll
+		src\Webapi\obj\Debug\net8.0\refint\Webapi.dll = src\Webapi\obj\Debug\net8.0\refint\Webapi.dll
+		src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.build.Webapi.props = src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.build.Webapi.props
+		src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Webapi.props = src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Webapi.props
+		src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Webapi.props = src\Webapi\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Webapi.props
+		src\Webapi\obj\Debug\net8.0\staticwebassets.build.json = src\Webapi\obj\Debug\net8.0\staticwebassets.build.json
+		src\Webapi\obj\Debug\net8.0\Webapi.AssemblyInfo.cs = src\Webapi\obj\Debug\net8.0\Webapi.AssemblyInfo.cs
+		src\Webapi\obj\Debug\net8.0\Webapi.AssemblyInfoInputs.cache = src\Webapi\obj\Debug\net8.0\Webapi.AssemblyInfoInputs.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.assets.cache = src\Webapi\obj\Debug\net8.0\Webapi.assets.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.csproj.AssemblyReference.cache = src\Webapi\obj\Debug\net8.0\Webapi.csproj.AssemblyReference.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.csproj.CopyComplete = src\Webapi\obj\Debug\net8.0\Webapi.csproj.CopyComplete
+		src\Webapi\obj\Debug\net8.0\Webapi.csproj.CoreCompileInputs.cache = src\Webapi\obj\Debug\net8.0\Webapi.csproj.CoreCompileInputs.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.csproj.FileListAbsolute.txt = src\Webapi\obj\Debug\net8.0\Webapi.csproj.FileListAbsolute.txt
+		src\Webapi\obj\Debug\net8.0\Webapi.dll = src\Webapi\obj\Debug\net8.0\Webapi.dll
+		src\Webapi\obj\Debug\net8.0\Webapi.GeneratedMSBuildEditorConfig.editorconfig = src\Webapi\obj\Debug\net8.0\Webapi.GeneratedMSBuildEditorConfig.editorconfig
+		src\Webapi\obj\Debug\net8.0\Webapi.genruntimeconfig.cache = src\Webapi\obj\Debug\net8.0\Webapi.genruntimeconfig.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.GlobalUsings.g.cs = src\Webapi\obj\Debug\net8.0\Webapi.GlobalUsings.g.cs
+		src\Webapi\obj\Debug\net8.0\Webapi.MvcApplicationPartsAssemblyInfo.cache = src\Webapi\obj\Debug\net8.0\Webapi.MvcApplicationPartsAssemblyInfo.cache
+		src\Webapi\obj\Debug\net8.0\Webapi.MvcApplicationPartsAssemblyInfo.cs = src\Webapi\obj\Debug\net8.0\Webapi.MvcApplicationPartsAssemblyInfo.cs
+		src\Webapi\obj\Debug\net8.0\Webapi.pdb = src\Webapi\obj\Debug\net8.0\Webapi.pdb
+		src\Webapi\obj\Debug\net8.0\Webapi.sourcelink.json = src\Webapi\obj\Debug\net8.0\Webapi.sourcelink.json
+		src\Webapi\obj\project.assets.json = src\Webapi\obj\project.assets.json
+		src\Webapi\obj\project.nuget.cache = src\Webapi\obj\project.nuget.cache
+		src\Webapi\obj\Webapi.csproj.nuget.dgspec.json = src\Webapi\obj\Webapi.csproj.nuget.dgspec.json
+		src\Webapi\obj\Webapi.csproj.nuget.g.props = src\Webapi\obj\Webapi.csproj.nuget.g.props
+		src\Webapi\obj\Webapi.csproj.nuget.g.targets = src\Webapi\obj\Webapi.csproj.nuget.g.targets
+		src\Webapi\Program.cs = src\Webapi\Program.cs
+		src\Webapi\Properties\launchSettings.json = src\Webapi\Properties\launchSettings.json
+		src\Webapi\Webapi.csproj = src\Webapi\Webapi.csproj
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "src\Demo\Demo.csproj", "{0A4D6A55-C2CF-4A9A-92B9-906CBF922A92}"
 EndProject
@@ -14,6 +61,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C97C2A6-5E13-496B-B512-3B153C7BA5A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo.Web", "src\Leonardo.Web\Leonardo.Web.csproj", "{A6EFC51A-F23E-46A5-8BFD-3AEBB5049320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapi", "src\Webapi\Webapi.csproj", "{8606C88A-5B28-442D-920F-0FEE94C4A6DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,11 +89,16 @@ Global
 		{A6EFC51A-F23E-46A5-8BFD-3AEBB5049320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EFC51A-F23E-46A5-8BFD-3AEBB5049320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EFC51A-F23E-46A5-8BFD-3AEBB5049320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8606C88A-5B28-442D-920F-0FEE94C4A6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8606C88A-5B28-442D-920F-0FEE94C4A6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8606C88A-5B28-442D-920F-0FEE94C4A6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8606C88A-5B28-442D-920F-0FEE94C4A6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{0A4D6A55-C2CF-4A9A-92B9-906CBF922A92} = {695C0DE2-930D-48DF-A4BC-D6911CEF49FA}
 		{B8E104F6-73F2-419A-9C3F-C9F59591A259} = {695C0DE2-930D-48DF-A4BC-D6911CEF49FA}
 		{ABCC247D-6AB2-49FA-B8CF-7DD694E88ADC} = {9C97C2A6-5E13-496B-B512-3B153C7BA5A4}
 		{A6EFC51A-F23E-46A5-8BFD-3AEBB5049320} = {695C0DE2-930D-48DF-A4BC-D6911CEF49FA}
+		{8606C88A-5B28-442D-920F-0FEE94C4A6DB} = {695C0DE2-930D-48DF-A4BC-D6911CEF49FA}
 	EndGlobalSection
 EndGlobal
